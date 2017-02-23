@@ -122,7 +122,7 @@
   };
 
 
-  GameVsHuman.prototype.checkWinner = function (playerBoxList, playerNumber) {}
+  GameVsHuman.prototype.checkWinner = function (playerBoxList, playerNumber) {
     var hasWon = winCondition(playerBoxList);
     //Checks if there is a winner
     if (hasWon) {
